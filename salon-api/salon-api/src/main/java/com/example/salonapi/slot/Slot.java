@@ -1,11 +1,11 @@
+package com.example.salonapi.slot;
+
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 
 import javax.persistence.*;
 
-// import com.manning.salonapp.salonservice.SalonServiceDetail;
-import com.example.salonapi.SalonServiceDetail;
-// import jdk.jfr.events.CertificateId;
+import com.example.salonapi.salonservice.SalonServiceDetail;
 
 import java.time.LocalDateTime;
 import java.util.Set;

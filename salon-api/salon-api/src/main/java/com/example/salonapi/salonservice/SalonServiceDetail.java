@@ -1,3 +1,4 @@
+package com.example.salonapi.salonservice;
 
 import lombok.*;
 

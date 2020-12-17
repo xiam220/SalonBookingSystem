@@ -1,6 +1,6 @@
-import org.springframework.data.repository.CrudRepository;
+package com.example.salonapi.salonservice;
 
-// import SalonServiceDetail;
+import org.springframework.data.repository.CrudRepository;
 
 // extends CrudRepository<[type of repository to persist], [entity ID property]>
 public interface SalonServiceDetailRepository          
