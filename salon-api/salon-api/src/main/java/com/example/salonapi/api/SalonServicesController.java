@@ -1,10 +1,12 @@
 package com.example.salonapi.api.services;
 
 import java.util.Optional;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
+// import org.springframeowkr.data.jpa.repository.JpaRepository;
 // import org.springframework.hateoas.EntityLinks;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -34,7 +36,9 @@ public class SalonServicesController {
     }
 
     @GetMapping("/services/retrieveAvailableSalonServices")
-    public SalonServiceDetail appointmentDetails() {
-        return salonServiceDetailRepo.getContent();
+    public Iterable<SalonServiceDetail> appointmentDetails() {
+        return salonServiceDetailRepo.findAll();
     }
+
+
 }
