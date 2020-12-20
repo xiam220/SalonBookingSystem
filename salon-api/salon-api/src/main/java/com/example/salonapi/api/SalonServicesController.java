@@ -23,7 +23,7 @@ import com.example.salonapi.salonservice.SalonServiceDetailRepository;
 // Handler methods will only handle requests if the request's Accept header
 // includes "application/json"
 @RequestMapping(path="/api",
-                    produces="application/json")
+                    produces="*/*")
 @CrossOrigin(origins="*")
 public class SalonServicesController {
     private SalonServiceDetailRepository salonServiceDetailRepo;
