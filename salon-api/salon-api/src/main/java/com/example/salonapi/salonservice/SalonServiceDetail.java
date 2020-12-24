@@ -21,4 +21,24 @@ public class SalonServiceDetail{
     String description;
     Long price;
     Integer timeInMinutes;
+
+    public Long getId(){
+        return id;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public String getDescription(){
+        return description;
+    }
+
+    public Long getPrice(){
+        return price;
+    }
+
+    public Integer getTimeInMinutes(){
+        return timeInMinutes;
+    }
 }
