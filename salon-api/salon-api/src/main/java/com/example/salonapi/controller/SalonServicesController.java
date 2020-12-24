@@ -37,7 +37,6 @@ public class SalonServicesController {
 
     @GetMapping("/api/services/retrieveAvailableSalonService")
     public List<SalonServiceDetail> retrieveAvailableSalonServiceAPI() {
-        // System.out.println(salonServiceDetailRepo.findAll());
         return salonServiceDetailRepo.findAll();
     }
 }
