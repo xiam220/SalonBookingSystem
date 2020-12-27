@@ -1,0 +1,24 @@
+.toast{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 350px;
+}
+
+.toast-header{
+    padding: 12px 4px;
+}
+
+small{
+    margin-left: 50%;
+}
+
+button{
+    margin-left: 2px
+}
+
+.toast-body{
+    background: rgb(225,226,227);
+    padding: 12px;
+    text-align: center;
+}
