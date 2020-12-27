@@ -2,11 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import React from "react";
 import NavigationBar from './components/NavigationBar'
+import LoadingIndicator from './components/LoadingIndicator'
+import AppNotification from './components/AppNotification'
 
 function App(){
   return(
     <main>
       <NavigationBar/>
+      <LoadingIndicator/>
+      <AppNotification/>
     </main>
   );
 }
