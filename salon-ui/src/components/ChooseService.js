@@ -1,4 +1,5 @@
 import React from 'react';
+import ServiceCard from './ServiceCard';
 
 class ChooseService extends React.Component{
     constructor(props) {
@@ -26,10 +27,19 @@ class ChooseService extends React.Component{
                 {
                     salonServices.map(salonService =>
                         <ul> 
-                            {salonService.name}
+                            {/* {salonService.name}
                             {salonService.price}
                             {salonService.description}
-                            {salonService.timeInMinutes}
+                            {salonService.timeInMinutes} */}
+                            <ServiceCard 
+                                name={salonService.name}
+                                price={salonService.price}
+                                description={salonService.description}
+                                timeInMinutes={salonService.timeInMinutes}
+                                />
+                            {/* <ServiceCard price={salonService.price}/>
+                            <ServiceCard description={salonService.description}/>
+                            <ServiceCard timeInMinutes={salonService.timeInMinutes}/> */}
                         </ul>
                     )
                 }
