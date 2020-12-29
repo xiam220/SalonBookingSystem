@@ -6,6 +6,7 @@ import LoadingIndicator from './components/LoadingIndicator'
 import AppNotification from './components/AppNotification'
 
 import ChooseService from './components/ChooseService'
+import ServiceCard from './components/ServiceCard'
 
 function App(){
   return(
@@ -14,6 +15,7 @@ function App(){
       {/* <LoadingIndicator/>
       <AppNotification/> */}
       <ChooseService/>
+      {/* <ServiceCard/> */}
     </main>
   );
 }
