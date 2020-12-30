@@ -1,11 +1,9 @@
 .card {
     width: 18rem;
-    margin-top: 2%;
-    margin-right: 2%;
+    margin-bottom: 5%;
     border-style: solid;
     border-width: 0.5px;
     border-color: whitesmoke;
-
 }
 
 .card-title {
@@ -18,9 +16,13 @@
     font-size: x-large;
 }
 
+h2.card-text {
+    font-size: xx-large;
+}
+
 .card-text {
     text-align: center;
-    padding-bottom: 2%;
+    margin: 5%;
 }
 
 button.btn {
@@ -28,7 +30,7 @@ button.btn {
     margin-bottom: 5%;
     display: block;
     border-radius: 3px;
-    padding: 2%;
+    padding: 3%;
 }
 
 button.btn-outline-secondary {
@@ -41,5 +43,6 @@ button.btn-outline-secondary {
 
 button.btn:hover {
     background-color: dodgerblue;
+    border-color: dodgerblue;
     color: white;
 }

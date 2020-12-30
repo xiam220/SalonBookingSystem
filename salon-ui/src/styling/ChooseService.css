@@ -1,0 +1,10 @@
+.ChooseService {
+    margin: 5%;
+}
+
+.cards {
+    margin: 0 auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
