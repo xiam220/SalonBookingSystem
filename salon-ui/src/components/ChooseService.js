@@ -1,5 +1,6 @@
 import React from 'react';
 import ServiceCard from './ServiceCard';
+import '../styling/ChooseService.css'
 
 class ChooseService extends React.Component{
     constructor(props) {
@@ -24,26 +25,24 @@ class ChooseService extends React.Component{
 
         return (
             <div className="ChooseService">
-                {
-                    salonServices.map(salonService =>
-                        <ul> 
-                            {/* {salonService.name}
-                            {salonService.price}
-                            {salonService.description}
-                            {salonService.timeInMinutes} */}
+                <div className="cards">           
+                    {
+                        salonServices.map(salonService =>
+                            
                             <ServiceCard 
                                 name={salonService.name}
                                 price={salonService.price}
                                 description={salonService.description}
                                 timeInMinutes={salonService.timeInMinutes}
-                                />
-                            {/* <ServiceCard price={salonService.price}/>
-                            <ServiceCard description={salonService.description}/>
-                            <ServiceCard timeInMinutes={salonService.timeInMinutes}/> */}
-                        </ul>
-                    )
-                }
-            </div>
+                            />
+                                    
+                            
+                        )
+                    
+                    }
+                </div>
+            
+                </div>           
         )
     }
 }

@@ -19,9 +19,9 @@ class ServiceCard extends React.Component {
                     </p>
                     <button type="button" class="btn btn-outline-secondary">Book Appointment</button>
                     {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                </div>
+                </div>   
             </div>
-        );
+        )
     }
 }
 
